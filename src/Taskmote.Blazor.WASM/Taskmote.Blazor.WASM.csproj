@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
     <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-        <Exec Command="$(SolutionDir)Exe/tailwindcli --config $(ProjectDir)tailwind.config.js --input $(ProjectDir)Styles/app.css $(ProjectDir)Styles/app.css --output $(ProjectDir)wwwroot/css/app.css" />
+        <Exec Command="../../Exe/tailwindcli --config $(ProjectDir)tailwind.config.js --input $(ProjectDir)Styles/app.css $(ProjectDir)Styles/app.css --output $(ProjectDir)wwwroot/css/app.css" />
     </Target>
 
   <PropertyGroup>

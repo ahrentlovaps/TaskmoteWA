@@ -16,7 +16,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "TaskmoteWA": {
+    "Taskmote.Blazor.WASM": {
       "commandName": "Project",
       "executablePath": "/Users/timahrentlov/Code/Taskmote/Exe/tailwindcli",
       "launchBrowser": true,
